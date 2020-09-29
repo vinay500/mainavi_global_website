@@ -1,0 +1,47 @@
+
+.head-item{
+	padding: 15px 5px 10px 5px;
+	
+}
+
+#logo{
+	width: 200px;
+	height:100px;
+	margin: 10px;
+}
+.carousel-inner img{
+	height: 100%;
+	width: 100%;
+}
+.txt{
+	margin: 15px;
+    padding: 20px;
+
+}
+.txt-inner{
+	font-size: 40px;
+    text-align: center;
+}
+.list_text{
+	font-size: 20px;
+}
+.txt-2{
+	padding: 15px 150px 60px 150px;
+	margin: 10px;
+	height: 15px;
+}
+.sm-txt{
+	font-size: 12px;
+	padding: 3px;
+	border-radius: 5px;
+}
+.clients{
+	width: 100%;
+	height: 75px;
+}
+.client_logo{
+	width'
+}
+.sec{
+	height: 50px;
+}

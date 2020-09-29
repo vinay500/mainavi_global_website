@@ -1,0 +1,18 @@
+#header{
+	background: url(https://www.mainaviglobal.com/wp-content/uploads/2016/02/blx-d-p15.jpg) 50% / cover no-repeat;
+	height: 450px;
+}
+.head-item{
+	padding: 25px 10px;
+	
+}
+#logo{
+	width: 200px;
+	height:100px;
+	margin: 10px;
+}
+.logo-txt{
+	position:relative;
+	padding: 50px;
+
+}
