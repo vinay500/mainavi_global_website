@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" content="width=device-width,intial-scale=1" name="viewport">
+	<!--CSS page link-->
+	<link rel="stylesheet" type="text/css" href="C:\Users\abhis\Desktop\front_end\css\contact_us.css">
+	<!-- CSS only -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+   <!-- JS, Popper.js, and jQuery -->
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+   <title>contact us</title>
+
+   <!--JAVASCRIPT-->
+    <script type="text/javascript">
+    	( function(){
+    		"use strict";
+    		window.addEventListener("load",function(){
+    			var forms=document.getElementsByClassName("needs-validation");
+    			var validation=Array.prototype.filter.call(forms,function(form){
+    			form.addEventListener("submit",function(event){
+                  if(form.checkValidity()===false){
+                  	event.preventDefault();
+                  	event.stopPropagation();
+                  }
+                form.classList.add("was-validated");
+    			},false);
+    			}
+    			);
+    			},false);
+    		}
+    	)();
+    </script>
+</head>
+<body>
+	<div id="header">
+		<header class="container">
+	   
+	   	  <div class="row" >
+	   	     <div class="col-3">
+	              <a href="#">
+	     	        <img id="logo"  src="C:\Users\abhis\Desktop\front_end\images\MGS-Logo.jpg" 
+	     	        style="width: 250px ;">
+	              </a>
+	         </div>
+	         <div class="col-9" id="nav-bar">	
+		         <ul class="nav nav-pills  justify-content-end">
+			         <li class="nav-item head-item">
+				          <a class="nav-link " href="C:\Users\abhis\Desktop\front_end\html\home_page.html">
+				             <span class="head-item text-dark">HOME</span>
+				          </a>
+			         </li>
+			         <li class="nav-item head-item">
+				          <a class="nav-link" href="C:\Users\abhis\Desktop\front_end\html\about_us.html" >
+				             <span class=" text-dark">ABOUT US</span>
+				          </a>
+			         </li>
+			         <li class="nav-item head-item">
+				          <a class="nav-link" href=""#>
+				             <span class="head-item text-dark">SERVICES</span>
+				          </a>
+			         </li>
+			         <li class="nav-item head-item">
+				          <a class="nav-link" href="C:\Users\abhis\Desktop\front_end\html\contact_us.html">
+				            <span class="head-item text-dark">CONTACT US</span>
+				          </a>
+			         </li>
+			         <li class="nav-item head-item">
+				         <a class="nav-link" href="#">
+				            <span class="head-item text-dark">REQUEST A QUOTE</span>
+				         </a>
+			         </li>
+		         </ul>
+		       </div>
+		     </div> 
+		    <h1 class="text-white" style="text-align: center;">CONTACT US</h1>
+	    </header>
+    </div>
+    <div class="container" style="padding: 20px;">
+    	<div class="contact">
+    		<div class="row">
+    		   <div class="col-6">
+    			  <form name="myform" method="post" class="needs-validation" novalidate>
+    				 <div class="form-group">
+    				 	 <label for="name">Name</label>
+    				 	 <input type="text" name="nam" class="form-control" placeholder="enter name" required>
+    				 	 <div class="valid-feedback">valid</div>
+    				 	 <div class="invalid-feedback">Please fill this form</div>
+    				 </div>
+    				 <div class="form-group">
+    				 	 <label for="email">Mail</label>
+    				 	 <input type="email" name="mail" class="form-control" placeholder="enter email" required>
+    				 	 <div class="valid-feedback">valid</div>
+    				 	 <div class="invalid-feedback">Please fill this form</div>
+    				 </div>
+    				 <div class="form-group">
+    				 	 <label>Subject</label>
+    				 	 <input type="text" name="sub" class="form-control" placeholder="enter subject" required>
+    				 	 <div class="valid-feedback">valid</div>
+    				 	 <div class="invalid-feedback">Please fill this form</div>
+    				 </div>
+    				 	 <label for="comment">Your message</label><br>
+    				 	 <textarea rows="5" class="form-control" placeholder="comment" required></textarea>
+    				 	 <div class="valid-feedback">valid</div>
+    				 	 <div class="invalid-feedback">Please fill this form</div>
+    				 	 <br>
+    				 	 <button type="submit" class=" btn btn-success" value="submit">SEND</button>
+    				 </div>
+    			  </form>
+    			</div>
+    		<div class="col-6">
+    			
+    		</div>
+    	</div>
+    	</div>
+    	
+    	
+    </div>
+
+</body>
+</html>
